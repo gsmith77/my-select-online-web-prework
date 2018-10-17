@@ -6,5 +6,6 @@ def my_select(collection)
   i+=1
 end
 
-collection.even?
+my_select(collection) do |num|
+  num.even?
 end
