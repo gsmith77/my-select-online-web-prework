@@ -8,3 +8,5 @@ end
 
 my_select(collection) do |num|
   num.even?
+end
+end
